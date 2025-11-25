@@ -1,0 +1,24 @@
+services:
+  mcp-server:
+    build: ./mcp-server
+    container_name: mcp-server
+    ports:
+      - "4001:4001"
+    volumes:
+      - ./mcp-server/src:/app/src
+      - ./mcp-server/src/data:/app/src/data
+    command: ["npm", "run", "dev"]
+
+  orchestrator-api:
+    build: ./orchestrator-api
+    container_name: orchestrator-api
+    ports:
+      - "4000:4000"
+    environment:
+      MCP_BASE_URL: "http://mcp-server:4001"
+      GEMINI_API_KEY: "${GEMINI_API_KEY}"
+    depends_on:
+      - mcp-server
+    volumes:
+      - ./orchestrator-api/src:/app/src
+    command: ["npm", "run", "dev"]

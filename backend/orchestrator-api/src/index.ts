@@ -1,0 +1,1 @@
+import express,{Request,Response} from"express";import{decideIntentWithGemini}from"./geminiIntent";const app=express();app.use(express.json());app.post("/chat",async(req:Request,res:Response)=>{const{question}=req.body;const intent=await decideIntentWithGemini(question);return res.json({intent});});const PORT=4000;app.listen(PORT);
