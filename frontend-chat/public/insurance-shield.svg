@@ -1,0 +1,33 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo transparente, sólo icono -->
+  <g transform="translate(150,60)">
+    <!-- Sombra suave -->
+    <ellipse cx="0" cy="36" rx="46" ry="10" fill="#90a4ae" opacity="0.15"/>
+
+    <!-- Escudo -->
+    <path d="
+      M 0 -40
+      L 40 -28
+      L 44 4
+      C 42 26 30 44 12 58
+      C 6 63 2 65 0 66
+      C -2 65 -6 63 -12 58
+      C -30 44 -42 26 -44 4
+      L -40 -28 Z
+    "
+      fill="#ffffff"
+      stroke="#90a4ff"
+      stroke-width="3.5"
+      stroke-linejoin="round"
+    />
+
+    <!-- Check de protección -->
+    <path d="M -18 0 L -4 14 L 20 -12"
+      fill="none"
+      stroke="#81c784"
+      stroke-width="5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>

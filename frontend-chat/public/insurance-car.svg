@@ -1,0 +1,27 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- solo icono, sin fondo -->
+  <g transform="translate(150,60)">
+    <!-- Sombra -->
+    <ellipse cx="0" cy="32" rx="70" ry="10" fill="#90a4ae" opacity="0.15"/>
+
+    <!-- Cuerpo del auto -->
+    <rect x="-90" y="-12" width="180" height="45" rx="16" fill="#64b5f6"/>
+    <!-- Techo -->
+    <path d="M -50 -12 L -20 -40 L 30 -40 L 60 -12 Z" fill="#64b5f6"/>
+
+    <!-- Ventanas -->
+    <path d="M -38 -14 L -12 -36 L 24 -36 L 48 -14 Z" fill="#e3f2fd"/>
+
+    <!-- Ruedas -->
+    <circle cx="-50" cy="33" r="18" fill="#546e7a"/>
+    <circle cx="50" cy="33" r="18" fill="#546e7a"/>
+    <circle cx="-50" cy="33" r="10" fill="#cfd8dc"/>
+    <circle cx="50" cy="33" r="10" fill="#cfd8dc"/>
+
+    <!-- Faro -->
+    <rect x="82" y="4" width="16" height="10" rx="4" fill="#fff59d" opacity="0.9"/>
+
+    <!-- Detalle parachoques -->
+    <rect x="-90" y="6" width="16" height="8" rx="3" fill="#455a64" opacity="0.4"/>
+  </g>
+</svg>
