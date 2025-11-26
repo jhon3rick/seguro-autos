@@ -1,1 +1,10 @@
-[{"model":"Toyota Corolla 1.6","price":120000},{"model":"VW Gol 1.6","price":45000}]
+[
+  {
+    "model": "Toyota Corolla 1.6",
+    "price": 120000
+  },
+  {
+    "model": "VW Gol 1.6",
+    "price": 45000
+  }
+]

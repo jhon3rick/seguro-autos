@@ -1,1 +1,17 @@
-[{"nationalId":"ID123","birthdate":"1990-05-10","infractionsCount":2},{"nationalId":"ID456","birthdate":"2008-01-01","infractionsCount":0},{"nationalId":"ID999","birthdate":"1980-03-01","infractionsCount":12}]
+[
+  {
+    "nationalId": "ID123",
+    "birthdate": "1990-05-10",
+    "infractionsCount": 15
+  },
+  {
+    "nationalId": "ID456",
+    "birthdate": "2008-01-01",
+    "infractionsCount": 0
+  },
+  {
+    "nationalId": "ID999",
+    "birthdate": "1980-03-01",
+    "infractionsCount": 12
+  }
+]
