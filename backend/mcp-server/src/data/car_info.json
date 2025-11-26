@@ -6,7 +6,19 @@
     "ownerNationalId": "ID123"
   },
   {
-    "plate": "DFF435F",
+    "plate": "ABC124",
+    "year": 2018,
+    "model": "Toyota Corolla 1.6",
+    "ownerNationalId": "ID124"
+  },
+  {
+    "plate": "DFF435",
+    "year": 2010,
+    "model": "VW Gol 1.6",
+    "ownerNationalId": "ID435"
+  },
+  {
+    "plate": "DFF999",
     "year": 2010,
     "model": "VW Gol 1.6",
     "ownerNationalId": "ID999"

@@ -2,7 +2,12 @@
   {
     "nationalId": "ID123",
     "birthdate": "1990-05-10",
-    "infractionsCount": 15
+    "infractionsCount": 2
+  },
+  {
+    "nationalId": "ID124",
+    "birthdate": "2020-05-10",
+    "infractionsCount": 2
   },
   {
     "nationalId": "ID456",

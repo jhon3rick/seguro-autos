@@ -158,12 +158,11 @@ async function calculatePremiumForInsuranceRequest(
     modelPrice
   );
 
-  console.log('ddsadasdsadsadsa', validationError, driverProfile)
-
   if (validationError) {
     return validationError;
   }
 
+  // Peticion al tool calculate_risk
   const risk = await callCalculateRisk(age, driverProfile.infractionsCount);
   const vehicleFactor = await callCalculateVehicleFactor(
     carInfo.year,
