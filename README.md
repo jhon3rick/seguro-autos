@@ -6,7 +6,7 @@ Asistente conversacional inteligente para cotizar seguros vehiculares utilizando
 - **MCP Server** para simular microservicios (reglas del negocio e información del cliente)
 - **Frontend en React + Vite + MUI** con almacenamiento local de historial
 - **Contenedores Docker** para entorno reproducible
-- **Clean Architecture + API Context + Business Rules separadas**
+- **API Context + Business Rules separadas**
 
 ## 📌 Objetivo
 
@@ -18,15 +18,18 @@ Simular un sistema real donde un usuario puede consultar:
 
 ## 🧁 Estructura del Proyecto
 
-orchestrator-api/
-mcp-server/
 frontend/
-docker-compose.yml
+backend/
 
-## 📦 Instalación con Docker
+## 📦 Instalación con Docker para el backend
 
 docker-compose build
 docker-compose up
+
+## 📦 ejecución frontend
+
+npm install
+npm run dev
 
 ## 🔁 Ejemplo de conversación
 
@@ -61,5 +64,5 @@ POST http://localhost:4000/chat
           │  - calculate_insurance_premium                │
           └───────────────────────────────────────────────┘
 
-                        Docker & Clean Architecture
+                                Docker
 
