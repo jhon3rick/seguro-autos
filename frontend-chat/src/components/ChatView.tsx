@@ -150,6 +150,7 @@ export const ChatView: React.FC = () => {
               display: 'flex',
               flexDirection: 'column',
               gap: 1,
+              maxHeight: 'calc(100vh - 350px)',
             }}
           >
             {messages.length === 0 && (
